@@ -1,0 +1,11 @@
+{
+  "name": "Cantonese TTS",
+  "description": "Uses Google translate API to convert Chinese text to Cantonese TTS",
+  "version": "0.0.1",
+  "permissions": ["contextMenus", "http://translate.google.com/", "debugger"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
